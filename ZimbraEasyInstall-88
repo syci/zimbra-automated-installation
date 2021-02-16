@@ -212,7 +212,7 @@ EOF
 if [[ `lsb_release -rs` == "18.04" ]]; then
     echo "Downloading Zimbra Collaboration 8.8.15 for Ubuntu 18.04"
     wget https://files.zimbra.com/downloads/8.8.15_GA/zcs-8.8.15_GA_3869.UBUNTU18_64.20190918004220.tgz
-    tar xzvf zcs-zcs-8.8.15_GA_3869.UBUNTU18_64.20190918004220.tgz
+    tar xzvf zcs-8.8.15_GA_3869.UBUNTU18_64.20190918004220.tgz
     echo "Installing Zimbra Collaboration just the Software"
     cd /tmp/zcs/zcs-zcs-8.8.15_GA_3869.UBUNTU18_64.20190918004220 && ./install.sh -s < /tmp/zcs/installZimbra-keystrokes
     echo "Installing Zimbra Collaboration injecting the configuration"
