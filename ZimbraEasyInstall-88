@@ -82,7 +82,7 @@ domain=$1
 mx-host=$1,$HOSTNAME.$1,0
 address=/$HOSTNAME.$1/$2
 EOF
-    sudo hostname $HOSTNAME && sudo service dnsmasq restart
+    sudo hostname $1 && sudo service dnsmasq restart
 fi
 ##Preparing the config files to inject
     echo "Creating the Scripts files"
