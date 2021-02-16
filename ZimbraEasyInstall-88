@@ -209,6 +209,7 @@ y
 n
 y
 y
+n
 EOF
 if [[ `lsb_release -rs` == "18.04" ]]; then
     echo "Downloading Zimbra Collaboration 8.8.15 for Ubuntu 18.04"

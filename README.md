@@ -28,6 +28,12 @@ The Script will take care of everything and after a few minutes you can go to th
  * Web Client - https://YOURIP
  * Admin Console - https://YOURIP:7071
 
+## ZimbraEasyInstall-88
+
+Please set /etc/hostname and netplan : https://www.jorgedelacruz.es/2019/09/17/zimbra-instalando-zimbra-8-8-15-sobre-ubuntu-18-04-lts/#preparaci%C3%B3nso
+
+Line 212 responds no for a server that doesn't have MXs yet, remove it if your MXs are correct.
+
 ## ZimbraEasyInstall-87
 If you want to deploy the latest version of Zimbra, ZCS 8.7.11, now you can, with the new Script ready for ZCS 8.7.x, which also detect if you are in Ubuntu 14.04 or 16.04 and install the proper version depending the OS
 ##Usage and Example
